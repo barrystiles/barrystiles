@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Variables</title>
+    <!-- <link rel="stylesheet" href="product.css"> -->
+    
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p>
+    <button
+        onclick="
+        calculate+=1;
+        console.log(calculate)
+        "
+        >1
+    </button>
+    <button
+        onclick="
+        calculate+=2;
+        console.log(calculate)
+        ">2
+    </button>
+    <button
+        onclick="
+        calculate+=3;
+        console.log(calculate)
+        ">3
+    </button>
+    <button onclick="
+        calculate+=4;
+        console.log(calculate)
+        ">4
+    </button>
+    <button
+        onclick="
+        calculate+=5;
+        console.log(calculate)
+        ">5
+    </button>
+    <button
+    onclick="
+        calculate=`${calculate}+`;
+        console.log(calculate)
+        ">+
+    </button>
+    <button
+    onclick="
+        calculate=eval(calculate);
+        document.write(calculate)
+        ">=
+    </button>
+    </p>
+    <p>
+    <button onclick="
+        calculate+=6;
+        console.log(calculate)
+        ">6
+    </button>
+    <button onclick="
+        calculate+=7;
+        console.log(calculate)
+        ">7
+    </button>
+    <button onclick="
+        calculate+=8;
+        console.log(calculate)
+        ">8</button>
+        <button onclick="
+        calculate+=9;
+        console.log(calculate)
+        ">9</button>
+        <button onclick="
+        calculate=`${calculate}-`;
+        console.log(calculate)
+        ">-</button>
+        <button onclick="
+        calculate=`${calculate}/`;
+        console.log(calculate)
+        ">/</button>
+        <button onclick="
+        calculate=`${calculate}*`;
+        console.log(calculate)
+        ">*</button>
+    </p>
+    <script>
+        let calculate=null;
+    </script>
+</body>
+</html>

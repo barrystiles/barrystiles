@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boolean and if statement</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+ <button onclick="
+ const play=Math.random();
+ let computerPlay='';
+ if (play>=0 && play<1/3){
+   computerPlay='rock';
+ }else if (play>1/3 && play<2/3){
+   computerPlay='paper';
+ }else if (play>2/3 && play<3/3){
+   computerPlay='scissors';
+ };
+console.log(computerPlay);
+let results='';
+if(computerPlay==='rock'){
+  results='You\'ve won'
+}
+else if (computerPlay==='paper'){
+  results='You lose';
+}
+else if (computerPlay==='scissors'){
+  results='You lose';
+}
+alert(`You picked Rock. computer picked ${computerPlay}.${results}`)
+ ">Rock
+</button>
+
+
+ <button 
+ onclick="
+ const play=Math.random();
+ let computerPlay='';
+ if (play>=0 && play<1/3){
+   computerPlay='rock';
+ }else if (play>1/3 && play<2/3){
+   computerPlay='paper';
+ }else if (play>2/3 && play<3/3){
+   computerPlay='scissors';
+ };
+console.log(computerPlay);
+let results='';
+if(computerPlay==='rock'){
+  results='You lose'
+}
+else if (computerPlay==='paper'){
+  results='You win';
+}
+else if (computerPlay==='scissors'){
+  results='You lose';
+}
+alert(`You picked paper. computer picked ${computerPlay}.${results}`)
+ "
+ >paper</button>
+
+
+
+ <button
+ onclick="
+ const play=Math.random();
+
+ let computerPlay='';
+ if (play>=0 && play<1/3){
+   computerPlay='rock';
+ }else if (play>=1/3 && play<2/3){
+   computerPlay='paper';
+ }else if (play>=2/3 && play<3/3){
+   computerPlay='scissors';
+ };
+ console.log(computerPlay)
+
+ let results='';
+ if (computerPlay==='scissors'){
+   results='you win';
+ }else if (computerPlay==='paper'){
+   results='you lose';
+ }else if (computerPlay==='rock'){
+   results='you lose';
+ };
+alert(`You chose scissors. computer chose ${computerPlay}. ${results}`)
+ "
+ >Scissors</button>
+
+<p><a href="#">click here</a> to see the final project</p>
+
+
+  <script>
+
+  </script>
+</body>
+</html>

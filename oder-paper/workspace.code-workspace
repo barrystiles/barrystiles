@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "oder-paper",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "oder-paper"
+	}
+}
